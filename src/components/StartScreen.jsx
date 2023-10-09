@@ -3,10 +3,7 @@ function StartScreen({ numQuestions, dispatch }) {
     <div className="start">
       <h2>Welcome to Music Theory Quiz!</h2>
       <h3>{numQuestions} questions to test your music skills</h3>
-      <button
-        className="btn btn-ui"
-        onClick={() => dispatch({ type: "start" })}
-      >
+      <button className="btn" onClick={() => dispatch({ type: "start" })}>
         Let&apos;s start
       </button>
     </div>
